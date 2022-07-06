@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Peralta&family=Roboto:wght@300&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Peralta&family=Roboto:wght@300&family=Splash&display=swap');
+.taskbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 120px;
+    
+    position: absolute;
+    height: 72px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+input{width: 450px;;
+    height: 20px;
+border-radius: 5px;}
+
+.taskbar_left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.bar{
+    width: 24px;
+    height: 24px;
+flex:none;
+order:0;
+flex-grow: 1;}
+.Social{
+    width: 82px;
+        height: 36px;
+        font-family: 'Peralta', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: #000000; 
+    
+}
+.taskbar_right{display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 136px;
+    height: 40px;
+    }
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+}
+.title{display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 72px;
+}
+.back{margin-left: 10px;}
+.Speakers{width: 159px;
+    height: 36px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;  
+    color: #000000;}
+.tongthe{display: flex;
+}
+.card{display:flex;
+flex-direction: flex-start;
+
+width: 1000px;
+left:24px;
+right: 24px;
+top:164px;
+flex-wrap: wrap;
+gap: 20px;
+position: absolute;
+}
+.card_1{
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    height: 228px;
+    align-items: flex-start;
+    background: #FFD38A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    align-self: stretch;
+    
+    order:1;
+}
+.left{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 8px;
+gap: 8px;
+width: 150px;
+height: 196px;
+background: #E2E2E2;
+border-radius: 16px;
+}
+.pic1{
+    width: 168px;
+    height: 156px;
+    border-radius: 16px;
+    align-self: stretch;
+}
+.icon_left{display: flex;
+flex-direction: row;
+width:100px;
+justify-content: flex-start;
+margin-left: 20px;
+gap: 20px;
+}
+.right{display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+width: 276px;
+height: 228px;
+font-family: 'Open Sans';
+}
+.name{font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    height: 20px;
+    margin-top: 15px;
+    display: flex;
+    text-transform: capitalize;
+    margin-left:80px;
+}
+.Designer{font-weight: bold;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+margin:10px;
+}
+.place{
+    margin-left: 10px;margin-bottom: 5px;}
+.Speaks{margin: 10px;}
+.icon_right{
+    display: flex;
+flex-direction: row;
+margin-top: 50px;
+
+justify-content: space-around;
+align-items: center;
+width: 276px;
+}
+.card_2{
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    height: 228px;
+    align-items: flex-start;
+    background: #D6E7FF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    align-self: stretch;
+    order:2;
+}
+.card_3{
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    height: 228px;
+    align-items: flex-start;
+    background: #FFC5A0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    align-self: stretch;
+    order:3;
+}
+.card_4{
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    height: 228px;
+    align-items: flex-start;
+    background: #ABE1FF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    align-self: stretch;
+    order:4;
+}
+.card_5{
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    height: 228px;
+    align-items: flex-start;
+    background: #ADFFE6;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    align-self: stretch;
+    order:5;
+}
+.card_6{
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    height: 228px;
+    align-items: flex-start;
+    background: #A5FF96;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    align-self: stretch;
+    order:5;
+}
+@media (min-width: 720px) and (max-width:1024px) {
+   .taskbar{justify-content: flex-start;gap: 0;}
+    input{width: 60%;margin-left: 50px;}
+    .card_1{width: 328px;}
+    .card_2{width: 328px;}
+    .card_3{width: 328px;}
+    .card_4{width: 328px;}
+    .card_5{width: 328px;}
+    .card_6{width: 328px;}
+   .place{display: none;}
+   .pic1{width: 150px;}
+   .name{font-size: 15px;justify-content: center;margin: 17px;flex-wrap: wrap;}
+   .Designer{width: 100px;}
+   .Speaks{width: 120px;}
+   .icon_right{width: 156px;}
+}
+@media(min-width:510px) and (max-width:719px) {
+    .card{flex-direction: column;}
+    .taskbar{justify-content: flex-start;}
+    input{display: none;}
+    .taskbar_right{display: none;}
+}
+@media(max-width:509px){
+    .card{flex-direction: column;}
+    .taskbar{justify-content: flex-start;}
+    input{display: none;}
+    .taskbar_right{display: none;}
+    .place{display: none;}
+}
